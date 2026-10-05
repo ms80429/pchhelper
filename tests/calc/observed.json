@@ -1,0 +1,392 @@
+[
+ {
+  "id": "obs-knock-off-item",
+  "note": "2026-10-04 실측. 탁쳐서떨구기 1타(보스로라 도구 소지). 실수치 A162/B200만 확인 — SP·성격은 해당 실수치가 나오는 조합 중 하나(고집18/무보정32 등, 데미지 동일). 방어측 도구 종류 미기록(데미지 무관 도구로 가정).",
+  "attacker": {
+   "name": "Meowscarada",
+   "nature": "Adamant",
+   "ability": "Protean",
+   "sp": {
+    "atk": 18
+   }
+  },
+  "defender": {
+   "name": "Aggron",
+   "nature": "Hardy",
+   "ability": "Sturdy",
+   "item": "Leftovers"
+  },
+  "move": "Knock Off",
+  "observed": [
+   51
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 162
+   },
+   "defender": {
+    "def": 200
+   }
+  }
+ },
+ {
+  "id": "obs-knock-off-noitem",
+  "note": "2026-10-04 실측. 같은 배틀 2타(도구 떨어진 뒤). 급소·랭크 변화 없음(사용자 보고 기준).",
+  "attacker": {
+   "name": "Meowscarada",
+   "nature": "Adamant",
+   "ability": "Protean",
+   "sp": {
+    "atk": 18
+   }
+  },
+  "defender": {
+   "name": "Aggron",
+   "nature": "Hardy",
+   "ability": "Sturdy"
+  },
+  "move": "Knock Off",
+  "observed": [
+   33
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 162
+   },
+   "defender": {
+    "def": 200
+   }
+  }
+ },
+ {
+  "id": "obs-facade-burn",
+  "note": "2026-10-04 실측. 윈디 도깨비불로 화상 → 쁘사이저 객기. 급소·랭크 변화 없음(사용자 보고). 윈디 특성은 위협 아님(타오르는불꽃/정의의마음 — 데미지 무관). 성격은 실수치가 나오는 조합 중 하나.",
+  "attacker": {
+   "name": "Pinsir",
+   "nature": "Adamant",
+   "ability": "Hyper Cutter",
+   "sp": {
+    "atk": 32
+   },
+   "status": "brn"
+  },
+  "defender": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "move": "Facade",
+  "observed": [
+   107
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 194
+   },
+   "defender": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   }
+  }
+ },
+ {
+  "id": "obs-body-press",
+  "note": "2026-10-04 실측. 같은 배틀, 콜로솔트 바디프레스 → 윈디. 급소·랭크 변화 없음(사용자 보고). 방어 167 = 무보정 방어17 또는 장난꾸러기 방어2 (데미지 동일).",
+  "attacker": {
+   "name": "Garganacl",
+   "nature": "Hardy",
+   "ability": "Clear Body",
+   "sp": {
+    "def": 17
+   }
+  },
+  "defender": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "move": "Body Press",
+  "observed": [
+   60
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 120,
+    "def": 167
+   },
+   "defender": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   }
+  }
+ },
+ {
+  "id": "obs-foul-play",
+  "note": "2026-10-04 실측. 커트로토무 속임수 → 풀피 윈디. 급소·랭크 변화 없음(사용자 보고). 커트로토무 A76 = 공격 하락 성격 + 공격 SP 0 (성격은 조합 중 하나, 데미지 무관).",
+  "attacker": {
+   "name": "Rotom-Mow",
+   "nature": "Bold",
+   "ability": "Levitate"
+  },
+  "defender": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "move": "Foul Play",
+  "observed": [
+   73
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 76
+   },
+   "defender": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   }
+  }
+ },
+ {
+  "id": "obs-life-orb",
+  "note": "2026-10-04 실측. 콜로솔트(생명의구슬) 스톤샤워 → 풀피 윈디, 배틀당 1회 × 2. 급소·랭크 변화 없음(사용자 보고). ChampDex 동일 조합 16개: 134,134,138,138,140,140,144,144,146,146,150,150,152,152,156,158 (143 없음).",
+  "attacker": {
+   "name": "Garganacl",
+   "nature": "Hardy",
+   "ability": "Clear Body",
+   "sp": {
+    "def": 17
+   },
+   "item": "Life Orb"
+  },
+  "defender": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "move": "Rock Slide",
+  "observed": [
+   140,
+   143
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 120,
+    "def": 167
+   },
+   "defender": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   }
+  }
+ },
+ {
+  "id": "obs-expert-belt",
+  "note": "2026-10-04 실측. 콜로솔트(달인의띠) 스톤샤워 → 풀피 윈디, 배틀당 1회 × 2. 급소·랭크 변화 없음(사용자 보고). ChampDex 동일 조합 16개: 122,126,126,128,128,132,132,134,134,138,138,140,140,144,144,146 (137 없음).",
+  "attacker": {
+   "name": "Garganacl",
+   "nature": "Hardy",
+   "ability": "Clear Body",
+   "sp": {
+    "def": 17
+   },
+   "item": "Expert Belt"
+  },
+  "defender": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "move": "Rock Slide",
+  "observed": [
+   132,
+   137
+  ],
+  "stats": {
+   "attacker": {
+    "atk": 120,
+    "def": 167
+   },
+   "defender": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   }
+  }
+ },
+ {
+  "id": "obs-reflect",
+  "note": "2026-10-04 실측. 님피아 리플렉터 → 사마자르(벌레의알림, 풀피) 돌도끼 × 2. 급소·랭크 변화 없음(사용자 보고). ChampDex 동일 조합 16개: 43,45,45,45,46,46,46,48,48,48,49,49,49,51,51,52 (47 없음).",
+  "attacker": {
+   "name": "Kleavor",
+   "nature": "Lonely",
+   "ability": "Swarm",
+   "sp": {
+    "hp": 32,
+    "atk": 32,
+    "spd": 2
+   }
+  },
+  "defender": {
+   "name": "Sylveon",
+   "nature": "Modest",
+   "ability": "Pixilate",
+   "sp": {
+    "hp": 32,
+    "spa": 32,
+    "spe": 2
+   }
+  },
+  "move": "Stone Axe",
+  "field": {
+   "reflect": true
+  },
+  "observed": [
+   45,
+   47
+  ],
+  "stats": {
+   "attacker": {
+    "hp": 177,
+    "atk": 205,
+    "def": 103,
+    "spa": 65,
+    "spd": 92,
+    "spe": 105
+   },
+   "defender": {
+    "hp": 202,
+    "atk": 76,
+    "def": 85,
+    "spa": 178,
+    "spd": 150,
+    "spe": 82
+   }
+  }
+ },
+ {
+  "id": "obs-thick-fat",
+  "note": "2026-10-04 실측. 윈디 플레어드라이브 → 마릴리(두꺼운지방) × 14. 급소·랭크 변화 없음(사용자 보고). 판정력 없음: 두 값 모두 ChampDex(30,30,30,31,31,31,32,32,33,33,33,34,34,34,35,35)에도 있음.",
+  "attacker": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Justified",
+   "sp": {
+    "hp": 32,
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Azumarill",
+   "nature": "Adamant",
+   "ability": "Thick Fat",
+   "sp": {
+    "hp": 32,
+    "atk": 32,
+    "spe": 2
+   }
+  },
+  "move": "Flare Blitz",
+  "observed": [
+   35,
+   34,
+   31,
+   35,
+   31,
+   32,
+   30,
+   30,
+   34,
+   34,
+   35,
+   33,
+   33,
+   30
+  ],
+  "stats": {
+   "attacker": {
+    "hp": 197,
+    "atk": 178,
+    "def": 100
+   },
+   "defender": {
+    "hp": 207,
+    "atk": 112,
+    "def": 100,
+    "spa": 72,
+    "spd": 100,
+    "spe": 72
+   }
+  }
+ },
+ {
+  "id": "obs-thick-fat-overheat",
+  "note": "2026-10-04 실측. 히스이 블레이범 오버히트 → 맘모꾸리(두꺼운지방), 양쪽 풀피, 급소 없음(사용자 보고). 판정용 조합: ChampDex 동일 조합 16개 169,171,172,175,177,178,181,183,184,187,189,190,193,195,196,199 와 우리 값이 서로소.",
+  "attacker": {
+   "name": "Typhlosion-Hisui",
+   "nature": "Modest",
+   "ability": "Blaze",
+   "sp": {
+    "hp": 32,
+    "spa": 32,
+    "spe": 2
+   }
+  },
+  "defender": {
+   "name": "Mamoswine",
+   "nature": "Hardy",
+   "ability": "Thick Fat",
+   "sp": {
+    "hp": 30,
+    "atk": 15,
+    "spd": 2
+   }
+  },
+  "move": "Overheat",
+  "observed": [
+   170
+  ],
+  "stats": {
+   "attacker": {
+    "hp": 180,
+    "atk": 93,
+    "def": 98,
+    "spa": 188,
+    "spd": 105,
+    "spe": 117
+   },
+   "defender": {
+    "hp": 215,
+    "atk": 165,
+    "def": 100,
+    "spa": 90,
+    "spd": 82,
+    "spe": 100
+   }
+  }
+ }
+]

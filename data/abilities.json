@@ -1,0 +1,866 @@
+[
+ {
+  "id": "berserk",
+  "name": "Berserk"
+ },
+ {
+  "id": "dragonize",
+  "name": "Dragonize"
+ },
+ {
+  "id": "eelevate",
+  "name": "Eelevate"
+ },
+ {
+  "id": "emergencyexit",
+  "name": "Emergency Exit"
+ },
+ {
+  "id": "firemane",
+  "name": "Fire Mane"
+ },
+ {
+  "id": "healer",
+  "name": "Healer"
+ },
+ {
+  "id": "megasol",
+  "name": "Mega Sol"
+ },
+ {
+  "id": "naturalcure",
+  "name": "Natural Cure"
+ },
+ {
+  "id": "piercingdrill",
+  "name": "Piercing Drill"
+ },
+ {
+  "id": "regenerator",
+  "name": "Regenerator"
+ },
+ {
+  "id": "runaway",
+  "name": "Run Away"
+ },
+ {
+  "id": "spicyspray",
+  "name": "Spicy Spray"
+ },
+ {
+  "id": "unseenfist",
+  "name": "Unseen Fist"
+ },
+ {
+  "id": "adaptability",
+  "name": "Adaptability"
+ },
+ {
+  "id": "aerilate",
+  "name": "Aerilate"
+ },
+ {
+  "id": "aftermath",
+  "name": "Aftermath"
+ },
+ {
+  "id": "analytic",
+  "name": "Analytic"
+ },
+ {
+  "id": "angerpoint",
+  "name": "Anger Point"
+ },
+ {
+  "id": "anticipation",
+  "name": "Anticipation"
+ },
+ {
+  "id": "armortail",
+  "name": "Armor Tail"
+ },
+ {
+  "id": "aromaveil",
+  "name": "Aroma Veil"
+ },
+ {
+  "id": "auraguard",
+  "name": "Aura Guard"
+ },
+ {
+  "id": "battlearmor",
+  "name": "Battle Armor"
+ },
+ {
+  "id": "battlebond",
+  "name": "Battle Bond"
+ },
+ {
+  "id": "bigpecks",
+  "name": "Big Pecks"
+ },
+ {
+  "id": "blaze",
+  "name": "Blaze"
+ },
+ {
+  "id": "bulletproof",
+  "name": "Bulletproof"
+ },
+ {
+  "id": "cheekpouch",
+  "name": "Cheek Pouch"
+ },
+ {
+  "id": "chlorophyll",
+  "name": "Chlorophyll"
+ },
+ {
+  "id": "clearbody",
+  "name": "Clear Body"
+ },
+ {
+  "id": "cloudnine",
+  "name": "Cloud Nine"
+ },
+ {
+  "id": "competitive",
+  "name": "Competitive"
+ },
+ {
+  "id": "compoundeyes",
+  "name": "Compound Eyes"
+ },
+ {
+  "id": "contrary",
+  "name": "Contrary"
+ },
+ {
+  "id": "corrosion",
+  "name": "Corrosion"
+ },
+ {
+  "id": "cudchew",
+  "name": "Cud Chew"
+ },
+ {
+  "id": "curiousmedicine",
+  "name": "Curious Medicine"
+ },
+ {
+  "id": "cursedbody",
+  "name": "Cursed Body"
+ },
+ {
+  "id": "cutecharm",
+  "name": "Cute Charm"
+ },
+ {
+  "id": "damp",
+  "name": "Damp"
+ },
+ {
+  "id": "defiant",
+  "name": "Defiant"
+ },
+ {
+  "id": "disguise",
+  "name": "Disguise"
+ },
+ {
+  "id": "drizzle",
+  "name": "Drizzle"
+ },
+ {
+  "id": "drought",
+  "name": "Drought"
+ },
+ {
+  "id": "dryskin",
+  "name": "Dry Skin"
+ },
+ {
+  "id": "earlybird",
+  "name": "Early Bird"
+ },
+ {
+  "id": "eartheater",
+  "name": "Earth Eater"
+ },
+ {
+  "id": "effectspore",
+  "name": "Effect Spore"
+ },
+ {
+  "id": "electricsurge",
+  "name": "Electric Surge"
+ },
+ {
+  "id": "electromorphosis",
+  "name": "Electromorphosis"
+ },
+ {
+  "id": "fairyaura",
+  "name": "Fairy Aura"
+ },
+ {
+  "id": "filter",
+  "name": "Filter"
+ },
+ {
+  "id": "flamebody",
+  "name": "Flame Body"
+ },
+ {
+  "id": "flashfire",
+  "name": "Flash Fire"
+ },
+ {
+  "id": "flowerveil",
+  "name": "Flower Veil"
+ },
+ {
+  "id": "fluffy",
+  "name": "Fluffy"
+ },
+ {
+  "id": "forecast",
+  "name": "Forecast"
+ },
+ {
+  "id": "forewarn",
+  "name": "Forewarn"
+ },
+ {
+  "id": "friendguard",
+  "name": "Friend Guard"
+ },
+ {
+  "id": "frisk",
+  "name": "Frisk"
+ },
+ {
+  "id": "furcoat",
+  "name": "Fur Coat"
+ },
+ {
+  "id": "galewings",
+  "name": "Gale Wings"
+ },
+ {
+  "id": "gluttony",
+  "name": "Gluttony"
+ },
+ {
+  "id": "goodasgold",
+  "name": "Good as Gold"
+ },
+ {
+  "id": "gooey",
+  "name": "Gooey"
+ },
+ {
+  "id": "grasspelt",
+  "name": "Grass Pelt"
+ },
+ {
+  "id": "grassysurge",
+  "name": "Grassy Surge"
+ },
+ {
+  "id": "guarddog",
+  "name": "Guard Dog"
+ },
+ {
+  "id": "guts",
+  "name": "Guts"
+ },
+ {
+  "id": "harvest",
+  "name": "Harvest"
+ },
+ {
+  "id": "heatproof",
+  "name": "Heatproof"
+ },
+ {
+  "id": "heavymetal",
+  "name": "Heavy Metal"
+ },
+ {
+  "id": "hospitality",
+  "name": "Hospitality"
+ },
+ {
+  "id": "hugepower",
+  "name": "Huge Power"
+ },
+ {
+  "id": "hungerswitch",
+  "name": "Hunger Switch"
+ },
+ {
+  "id": "hustle",
+  "name": "Hustle"
+ },
+ {
+  "id": "hydration",
+  "name": "Hydration"
+ },
+ {
+  "id": "hypercutter",
+  "name": "Hyper Cutter"
+ },
+ {
+  "id": "icebody",
+  "name": "Ice Body"
+ },
+ {
+  "id": "illuminate",
+  "name": "Illuminate"
+ },
+ {
+  "id": "illusion",
+  "name": "Illusion"
+ },
+ {
+  "id": "immunity",
+  "name": "Immunity"
+ },
+ {
+  "id": "imposter",
+  "name": "Imposter"
+ },
+ {
+  "id": "infiltrator",
+  "name": "Infiltrator"
+ },
+ {
+  "id": "innardsout",
+  "name": "Innards Out"
+ },
+ {
+  "id": "innerfocus",
+  "name": "Inner Focus"
+ },
+ {
+  "id": "insomnia",
+  "name": "Insomnia"
+ },
+ {
+  "id": "intimidate",
+  "name": "Intimidate"
+ },
+ {
+  "id": "ironfist",
+  "name": "Iron Fist"
+ },
+ {
+  "id": "justified",
+  "name": "Justified"
+ },
+ {
+  "id": "keeneye",
+  "name": "Keen Eye"
+ },
+ {
+  "id": "klutz",
+  "name": "Klutz"
+ },
+ {
+  "id": "leafguard",
+  "name": "Leaf Guard"
+ },
+ {
+  "id": "levitate",
+  "name": "Levitate"
+ },
+ {
+  "id": "libero",
+  "name": "Libero"
+ },
+ {
+  "id": "lightmetal",
+  "name": "Light Metal"
+ },
+ {
+  "id": "lightningrod",
+  "name": "Lightning Rod"
+ },
+ {
+  "id": "limber",
+  "name": "Limber"
+ },
+ {
+  "id": "liquidooze",
+  "name": "Liquid Ooze"
+ },
+ {
+  "id": "liquidvoice",
+  "name": "Liquid Voice"
+ },
+ {
+  "id": "longreach",
+  "name": "Long Reach"
+ },
+ {
+  "id": "magicbounce",
+  "name": "Magic Bounce"
+ },
+ {
+  "id": "magicguard",
+  "name": "Magic Guard"
+ },
+ {
+  "id": "magician",
+  "name": "Magician"
+ },
+ {
+  "id": "magmaarmor",
+  "name": "Magma Armor"
+ },
+ {
+  "id": "marvelscale",
+  "name": "Marvel Scale"
+ },
+ {
+  "id": "megalauncher",
+  "name": "Mega Launcher"
+ },
+ {
+  "id": "merciless",
+  "name": "Merciless"
+ },
+ {
+  "id": "mimicry",
+  "name": "Mimicry"
+ },
+ {
+  "id": "minus",
+  "name": "Minus"
+ },
+ {
+  "id": "mirrorarmor",
+  "name": "Mirror Armor"
+ },
+ {
+  "id": "moldbreaker",
+  "name": "Mold Breaker"
+ },
+ {
+  "id": "moody",
+  "name": "Moody"
+ },
+ {
+  "id": "motordrive",
+  "name": "Motor Drive"
+ },
+ {
+  "id": "moxie",
+  "name": "Moxie"
+ },
+ {
+  "id": "multiscale",
+  "name": "Multiscale"
+ },
+ {
+  "id": "mummy",
+  "name": "Mummy"
+ },
+ {
+  "id": "noguard",
+  "name": "No Guard"
+ },
+ {
+  "id": "oblivious",
+  "name": "Oblivious"
+ },
+ {
+  "id": "opportunist",
+  "name": "Opportunist"
+ },
+ {
+  "id": "overcoat",
+  "name": "Overcoat"
+ },
+ {
+  "id": "overgrow",
+  "name": "Overgrow"
+ },
+ {
+  "id": "owntempo",
+  "name": "Own Tempo"
+ },
+ {
+  "id": "parentalbond",
+  "name": "Parental Bond"
+ },
+ {
+  "id": "pickpocket",
+  "name": "Pickpocket"
+ },
+ {
+  "id": "pickup",
+  "name": "Pickup"
+ },
+ {
+  "id": "pixilate",
+  "name": "Pixilate"
+ },
+ {
+  "id": "plus",
+  "name": "Plus"
+ },
+ {
+  "id": "poisonheal",
+  "name": "Poison Heal"
+ },
+ {
+  "id": "poisonpoint",
+  "name": "Poison Point"
+ },
+ {
+  "id": "poisontouch",
+  "name": "Poison Touch"
+ },
+ {
+  "id": "prankster",
+  "name": "Prankster"
+ },
+ {
+  "id": "pressure",
+  "name": "Pressure"
+ },
+ {
+  "id": "protean",
+  "name": "Protean"
+ },
+ {
+  "id": "psychicsurge",
+  "name": "Psychic Surge"
+ },
+ {
+  "id": "punkrock",
+  "name": "Punk Rock"
+ },
+ {
+  "id": "purepower",
+  "name": "Pure Power"
+ },
+ {
+  "id": "purifyingsalt",
+  "name": "Purifying Salt"
+ },
+ {
+  "id": "queenlymajesty",
+  "name": "Queenly Majesty"
+ },
+ {
+  "id": "quickdraw",
+  "name": "Quick Draw"
+ },
+ {
+  "id": "quickfeet",
+  "name": "Quick Feet"
+ },
+ {
+  "id": "raindish",
+  "name": "Rain Dish"
+ },
+ {
+  "id": "rattled",
+  "name": "Rattled"
+ },
+ {
+  "id": "receiver",
+  "name": "Receiver"
+ },
+ {
+  "id": "reckless",
+  "name": "Reckless"
+ },
+ {
+  "id": "refrigerate",
+  "name": "Refrigerate"
+ },
+ {
+  "id": "ripen",
+  "name": "Ripen"
+ },
+ {
+  "id": "rivalry",
+  "name": "Rivalry"
+ },
+ {
+  "id": "rockhead",
+  "name": "Rock Head"
+ },
+ {
+  "id": "roughskin",
+  "name": "Rough Skin"
+ },
+ {
+  "id": "sandforce",
+  "name": "Sand Force"
+ },
+ {
+  "id": "sandrush",
+  "name": "Sand Rush"
+ },
+ {
+  "id": "sandspit",
+  "name": "Sand Spit"
+ },
+ {
+  "id": "sandstream",
+  "name": "Sand Stream"
+ },
+ {
+  "id": "sandveil",
+  "name": "Sand Veil"
+ },
+ {
+  "id": "sapsipper",
+  "name": "Sap Sipper"
+ },
+ {
+  "id": "scrappy",
+  "name": "Scrappy"
+ },
+ {
+  "id": "screencleaner",
+  "name": "Screen Cleaner"
+ },
+ {
+  "id": "seedsower",
+  "name": "Seed Sower"
+ },
+ {
+  "id": "shadowtag",
+  "name": "Shadow Tag"
+ },
+ {
+  "id": "sharpness",
+  "name": "Sharpness"
+ },
+ {
+  "id": "shedskin",
+  "name": "Shed Skin"
+ },
+ {
+  "id": "sheerforce",
+  "name": "Sheer Force"
+ },
+ {
+  "id": "shellarmor",
+  "name": "Shell Armor"
+ },
+ {
+  "id": "shielddust",
+  "name": "Shield Dust"
+ },
+ {
+  "id": "skilllink",
+  "name": "Skill Link"
+ },
+ {
+  "id": "slushrush",
+  "name": "Slush Rush"
+ },
+ {
+  "id": "sniper",
+  "name": "Sniper"
+ },
+ {
+  "id": "snowcloak",
+  "name": "Snow Cloak"
+ },
+ {
+  "id": "snowwarning",
+  "name": "Snow Warning"
+ },
+ {
+  "id": "solarpower",
+  "name": "Solar Power"
+ },
+ {
+  "id": "solidrock",
+  "name": "Solid Rock"
+ },
+ {
+  "id": "soundproof",
+  "name": "Soundproof"
+ },
+ {
+  "id": "speedboost",
+  "name": "Speed Boost"
+ },
+ {
+  "id": "stakeout",
+  "name": "Stakeout"
+ },
+ {
+  "id": "stall",
+  "name": "Stall"
+ },
+ {
+  "id": "stalwart",
+  "name": "Stalwart"
+ },
+ {
+  "id": "stamina",
+  "name": "Stamina"
+ },
+ {
+  "id": "stancechange",
+  "name": "Stance Change"
+ },
+ {
+  "id": "static",
+  "name": "Static"
+ },
+ {
+  "id": "steadfast",
+  "name": "Steadfast"
+ },
+ {
+  "id": "steelyspirit",
+  "name": "Steely Spirit"
+ },
+ {
+  "id": "stench",
+  "name": "Stench"
+ },
+ {
+  "id": "stickyhold",
+  "name": "Sticky Hold"
+ },
+ {
+  "id": "strongjaw",
+  "name": "Strong Jaw"
+ },
+ {
+  "id": "sturdy",
+  "name": "Sturdy"
+ },
+ {
+  "id": "suctioncups",
+  "name": "Suction Cups"
+ },
+ {
+  "id": "superluck",
+  "name": "Super Luck"
+ },
+ {
+  "id": "supersweetsyrup",
+  "name": "Supersweet Syrup"
+ },
+ {
+  "id": "supremeoverlord",
+  "name": "Supreme Overlord"
+ },
+ {
+  "id": "surgesurfer",
+  "name": "Surge Surfer"
+ },
+ {
+  "id": "swarm",
+  "name": "Swarm"
+ },
+ {
+  "id": "sweetveil",
+  "name": "Sweet Veil"
+ },
+ {
+  "id": "swiftswim",
+  "name": "Swift Swim"
+ },
+ {
+  "id": "symbiosis",
+  "name": "Symbiosis"
+ },
+ {
+  "id": "synchronize",
+  "name": "Synchronize"
+ },
+ {
+  "id": "tangledfeet",
+  "name": "Tangled Feet"
+ },
+ {
+  "id": "technician",
+  "name": "Technician"
+ },
+ {
+  "id": "telepathy",
+  "name": "Telepathy"
+ },
+ {
+  "id": "thermalexchange",
+  "name": "Thermal Exchange"
+ },
+ {
+  "id": "thickfat",
+  "name": "Thick Fat"
+ },
+ {
+  "id": "torrent",
+  "name": "Torrent"
+ },
+ {
+  "id": "toughclaws",
+  "name": "Tough Claws"
+ },
+ {
+  "id": "toxicdebris",
+  "name": "Toxic Debris"
+ },
+ {
+  "id": "trace",
+  "name": "Trace"
+ },
+ {
+  "id": "unaware",
+  "name": "Unaware"
+ },
+ {
+  "id": "unburden",
+  "name": "Unburden"
+ },
+ {
+  "id": "unnerve",
+  "name": "Unnerve"
+ },
+ {
+  "id": "vitalspirit",
+  "name": "Vital Spirit"
+ },
+ {
+  "id": "voltabsorb",
+  "name": "Volt Absorb"
+ },
+ {
+  "id": "wanderingspirit",
+  "name": "Wandering Spirit"
+ },
+ {
+  "id": "waterabsorb",
+  "name": "Water Absorb"
+ },
+ {
+  "id": "waterbubble",
+  "name": "Water Bubble"
+ },
+ {
+  "id": "weakarmor",
+  "name": "Weak Armor"
+ },
+ {
+  "id": "whitesmoke",
+  "name": "White Smoke"
+ },
+ {
+  "id": "zerotohero",
+  "name": "Zero to Hero"
+ }
+]

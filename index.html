@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>챔피언스 배틀 보조</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<style>
+  /* Toss-like: no borders, gray canvas, white rounded cards, filled controls */
+  :root { color-scheme: light dark;
+    --bg: #f2f4f6; --panel: #fff; --sub: #f9fafb; --field: #f2f4f6; --field-hover: #e5e8eb; --fg: #191f28; --muted: #8b95a1; --text2: #4e5968;
+    --hi: #3182f6; --hi-bg: #e8f3ff; --bad: #f04452; --good: #0ca678; --warn: #e88a00; --sure-bg: #ffeeee; --roll-bg: #fff6e5; }
+  @media (prefers-color-scheme: dark) { :root {
+    --bg: #101013; --panel: #1d1d22; --sub: #25252b; --field: #2c2c35; --field-hover: #3a3a45; --fg: #e9e9ec; --muted: #8e8e98; --text2: #b0b0b8;
+    --hi: #4593fc; --hi-bg: #1d2f4d; --bad: #fa616d; --good: #33c38c; --warn: #ffb02e; --sure-bg: #3d1e22; --roll-bg: #3b2e17; } }
+  * { box-sizing: border-box; }
+  body { font: 14px/1.45 Pretendard, system-ui, 'Malgun Gothic', sans-serif; margin: 0; padding: 12px; background: var(--bg); color: var(--fg);
+    -webkit-font-smoothing: antialiased; letter-spacing: -0.01em; }
+  h2 { font-size: 17px; font-weight: 700; margin: 0 0 8px; }
+  section, fieldset { background: var(--panel); border: 0; border-radius: 20px; padding: 16px; }
+  main > section + section { margin-top: 12px; }
+  input, select, button, .button { font: inherit; color: inherit; background: var(--field); border: 0; border-radius: 10px; padding: 6px 10px;
+    transition: background .15s; }
+  input::placeholder { color: var(--muted); }
+  button, .button { cursor: pointer; font-weight: 600; color: var(--text2); }
+  button:hover:not(:disabled), .button:hover, select:hover { background: var(--field-hover); }
+  button:active:not(:disabled) { transform: scale(.97); }
+  button:disabled { opacity: .4; cursor: default; }
+  button.on { background: var(--hi-bg); color: var(--hi); opacity: 1; }
+  button.primary { background: var(--hi); color: #fff; } button.primary:hover:not(:disabled) { background: #1b64da; }
+  input:focus, select:focus, button:focus-visible { outline: 2px solid var(--hi); outline-offset: 0; }
+  input[type=checkbox] { accent-color: var(--hi); width: 16px; height: 16px; vertical-align: -3px; margin: 0 4px 0 0; }
+  label { color: var(--text2); }
+  small { color: var(--muted); display: block; margin-top: 8px; font-size: 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .row + .row { margin-top: 8px; }
+  .err { color: var(--bad); font-weight: 500; }
+  /* team */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 10px; margin-top: 12px; }
+  fieldset { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0; background: var(--sub); border-radius: 16px; padding: 12px; }
+  fieldset input, fieldset select, fieldset input:hover, fieldset select:hover { background: var(--panel); }
+  fieldset.bad { box-shadow: inset 0 0 0 2px var(--bad); }
+  table { border-collapse: collapse; } td, th { padding: 2px 3px; text-align: center; font-weight: 500; }
+  th { color: var(--muted); font-size: 12px; } td:first-child { white-space: nowrap; color: var(--muted); font-size: 12px; }
+  td input { width: 3em; padding: 4px; text-align: right; }
+  .moves { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; width: 100%; } .moves .pick, .moves input { width: 100%; }
+  /* battle */
+  .bar { position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 4px 0 10px; }
+  .bar button, .bar select { background: var(--panel); } .bar button:hover, .bar select:hover { background: var(--field-hover); }
+  .bar .turn { font-size: 20px; font-weight: 800; margin-right: 6px; }
+  .battle { display: grid; gap: 12px; align-items: start;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(300px, 1.2fr); grid-template-areas: "me opp dmg" "me opp log"; }
+  .battle .me { grid-area: me; } .battle .opp { grid-area: opp; } .damage { grid-area: dmg; } .log { grid-area: log; }
+  @media (max-width: 1000px) { .battle { grid-template-columns: 1fr 1fr; grid-template-areas: "dmg dmg" "me opp" "log log"; } }
+  @media (max-width: 620px) { .battle { grid-template-columns: 1fr; grid-template-areas: "dmg" "me" "opp" "log"; } }
+  .side { display: grid; gap: 10px; }
+  .side h2::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin: 0 8px 2px 0; background: var(--hi); }
+  .side.opp h2::before { background: var(--bad); }
+  .active { display: grid; gap: 10px; background: var(--sub); border-radius: 16px; padding: 12px; }
+  .active input, .active select { background: var(--panel); }
+  .active .name { font-size: 18px; font-weight: 700; }
+  .active input[type=number] { width: 6.5em; }
+  meter { width: 100%; height: 8px; border-radius: 4px; }
+  .boosts { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 4px 10px; }
+  .boost { display: flex; align-items: center; gap: 2px; white-space: nowrap; }
+  .boost span { flex: 1; color: var(--muted); font-size: 13px; } .boost button { padding: 1px 8px; background: var(--panel); }
+  .boost b { width: 1.8em; text-align: center; } .boost b.up { color: var(--good); } .boost b.down { color: var(--bad); }
+  .type { display: inline-block; padding: 0 8px; border-radius: 6px; color: #fff; font-size: 12px; font-weight: 600; line-height: 20px; }
+  .t-normal{background:#9fa19f}.t-fire{background:#e62829}.t-water{background:#2980ef}.t-electric{background:#e0ac00}.t-grass{background:#3fa129}
+  .t-ice{background:#3dc7ef}.t-fighting{background:#ff8000}.t-poison{background:#9141cb}.t-ground{background:#915121}.t-flying{background:#81b9ef}
+  .t-psychic{background:#ef4179}.t-bug{background:#91a119}.t-rock{background:#afa981}.t-ghost{background:#704170}.t-dragon{background:#5060e1}
+  .t-dark{background:#624d4e}.t-steel{background:#60a1b8}.t-fairy{background:#ef70ef}
+  .damage h3 { font-size: 14px; font-weight: 700; color: var(--text2); margin: 14px 0 6px; }
+  .damage ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+  .damage li { padding: 8px 12px; border-radius: 12px; background: var(--sub); display: flex; flex-wrap: wrap; gap: 0 10px; align-items: baseline; }
+  .damage li .pct { font-variant-numeric: tabular-nums; margin-left: auto; color: var(--text2); }
+  .damage li.sure { background: var(--sure-bg); } .damage li.sure .ko { color: var(--bad); font-weight: 700; }
+  .damage li.roll { background: var(--roll-bg); } .damage li.roll .ko { color: var(--warn); font-weight: 700; }
+  .damage .cands li { color: var(--muted); background: none; padding: 4px 12px; }
+  .damage .order { font-weight: 700; color: var(--hi); background: var(--hi-bg); border-radius: 12px; padding: 8px 12px; }
+  summary { cursor: pointer; } summary h3, summary small { display: inline; }
+  .infer ul { display: block; padding-left: 1.2em; list-style: disc; } .infer li { display: list-item; background: none; padding: 2px 0; }
+  .log { margin: 0; padding: 14px 16px 14px 2.8em; max-height: 50vh; overflow-y: auto; background: var(--panel); border-radius: 20px; color: var(--text2); }
+  .log li { padding: 1px 0; } .log li:first-child { font-weight: 700; color: var(--fg); }
+  .pick { position: relative; display: inline-block; }
+  .pick ul { position: absolute; z-index: 30; left: 0; top: 100%; min-width: 100%; max-height: 18em; overflow-y: auto;
+    margin: 4px 0 0; padding: 6px; list-style: none; background: var(--panel); border-radius: 14px; white-space: nowrap; box-shadow: 0 8px 24px #0002; }
+  .pick li { padding: 6px 10px; border-radius: 8px; cursor: pointer; } .pick li.hi { background: var(--hi-bg); color: var(--hi); }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

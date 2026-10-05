@@ -1,0 +1,171 @@
+{
+ "droppedSpecies": [
+  {
+   "name": "Meloetta-Pirouette",
+   "reason": "battle-only forme of Meloetta, which is not in Champions"
+  },
+  {
+   "name": "Vivillon-Icy Snow",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Polar",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Tundra",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Continental",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Garden",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Elegant",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Modern",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Marine",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Archipelago",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-High Plains",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Sandstorm",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-River",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Monsoon",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Savanna",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Sun",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Ocean",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Jungle",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Fancy",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Vivillon-Pokeball",
+   "reason": "cosmetic forme of Vivillon (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Minior-Meteor",
+   "reason": "battle-only forme of Minior, which is not in Champions"
+  },
+  {
+   "name": "Cramorant-Gulping",
+   "reason": "battle-only forme of Cramorant, which is not in Champions"
+  },
+  {
+   "name": "Cramorant-Gorging",
+   "reason": "battle-only forme of Cramorant, which is not in Champions"
+  },
+  {
+   "name": "Polteageist-Antique",
+   "reason": "cosmetic forme of Polteageist (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Ruby-Cream",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Matcha-Cream",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Mint-Cream",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Lemon-Cream",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Ruby-Swirl",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Caramel-Swirl",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Alcremie-Rainbow-Swirl",
+   "reason": "cosmetic forme of Alcremie (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Eiscue-Noice",
+   "reason": "battle-only forme of Eiscue, which is not in Champions"
+  },
+  {
+   "name": "Squawkabilly-Blue",
+   "reason": "cosmetic forme of Squawkabilly (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Sinistcha-Masterpiece",
+   "reason": "cosmetic forme of Sinistcha (identical types/stats/abilities/weight)"
+  },
+  {
+   "name": "Ogerpon-Teal-Tera",
+   "reason": "battle-only forme of Ogerpon, which is not in Champions"
+  },
+  {
+   "name": "Ogerpon-Wellspring-Tera",
+   "reason": "battle-only forme of Ogerpon-Wellspring, which is not in Champions"
+  },
+  {
+   "name": "Ogerpon-Hearthflame-Tera",
+   "reason": "battle-only forme of Ogerpon-Hearthflame, which is not in Champions"
+  },
+  {
+   "name": "Ogerpon-Cornerstone-Tera",
+   "reason": "battle-only forme of Ogerpon-Cornerstone, which is not in Champions"
+  },
+  {
+   "name": "Terapagos-Terastal",
+   "reason": "battle-only forme of Terapagos, which is not in Champions"
+  }
+ ],
+ "droppedMoves": [
+  "Power Shift",
+  "Soft-Boiled",
+  "Spore"
+ ],
+ "usageUnknown": [],
+ "usageForeignAbility": [
+  "Toxtricity:minus",
+  "Meowstic:competitive",
+  "Squawkabilly:sheerforce"
+ ]
+}

@@ -1,0 +1,4 @@
+node_modules
+dist
+reports/.vitest.json
+data/raw

@@ -1,0 +1,1622 @@
+[
+ {
+  "id": "stab-se",
+  "note": "자속 + 2배",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32,
+    "spe": 32,
+    "hp": 2
+   }
+  },
+  "defender": {
+   "name": "Gholdengo",
+   "nature": "Modest",
+   "ability": "Good as Gold",
+   "sp": {
+    "hp": 32
+   }
+  },
+  "move": "Earthquake",
+  "expected": [
+   180,
+   182,
+   182,
+   186,
+   188,
+   188,
+   192,
+   194,
+   198,
+   198,
+   200,
+   204,
+   204,
+   206,
+   210,
+   212
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-Z2hvbGRlbmdvfmVhcnRocXVha2V-am9sbHl-bW9kZXN0flJvdWdoIFNraW5-R29vZCBhcyBHb2xkfn5-bm9uZX4wfjB-Mi4zMi4wLjAuMC4zMn4zMi4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "4x",
+  "note": "4배",
+  "attacker": {
+   "name": "Froslass",
+   "nature": "Timid",
+   "ability": "Snow Cloak",
+   "sp": {
+    "spa": 32,
+    "spe": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin",
+   "sp": {
+    "hp": 2
+   }
+  },
+  "move": "Ice Beam",
+  "expected": [
+   256,
+   256,
+   264,
+   264,
+   268,
+   268,
+   276,
+   276,
+   280,
+   280,
+   288,
+   288,
+   292,
+   292,
+   300,
+   304
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=ZnJvc2xhc3N-Z2FyY2hvbXB-aWNlLWJlYW1-dGltaWR-am9sbHl-U25vdyBDbG9ha35Sb3VnaCBTa2lufn5-bm9uZX4wfjB-MC4wLjAuMzIuMC4zMn4yLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "quarter",
+  "note": "0.25배",
+  "attacker": {
+   "name": "Venusaur",
+   "nature": "Modest",
+   "ability": "Overgrow",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Charizard",
+   "nature": "Timid",
+   "ability": "Blaze"
+  },
+  "move": "Energy Ball",
+  "expected": [
+   20,
+   20,
+   20,
+   21,
+   21,
+   21,
+   21,
+   21,
+   22,
+   22,
+   22,
+   22,
+   23,
+   23,
+   23,
+   24
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=dmVudXNhdXJ-Y2hhcml6YXJkfmVuZXJneS1iYWxsfm1vZGVzdH50aW1pZH5PdmVyZ3Jvd35CbGF6ZX5-fm5vbmV-MH4wfjAuMC4wLjMyLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "immune",
+  "note": "무효",
+  "attacker": {
+   "name": "Snorlax",
+   "nature": "Adamant",
+   "ability": "Thick Fat",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Gengar",
+   "nature": "Timid",
+   "ability": "Cursed Body"
+  },
+  "move": "Body Slam",
+  "expected": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=c25vcmxheH5nZW5nYXJ-Ym9keS1zbGFtfmFkYW1hbnR-dGltaWR-VGhpY2sgRmF0fkN1cnNlZCBCb2R5fn5-bm9uZX4wfjB-MC4zMi4wLjAuMC4wfjAuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "nature-plus",
+  "note": "성격 +",
+  "attacker": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Dragonite",
+   "nature": "Adamant",
+   "ability": "Inner Focus",
+   "sp": {
+    "hp": 32
+   }
+  },
+  "move": "Moonblast",
+  "expected": [
+   174,
+   176,
+   180,
+   180,
+   182,
+   186,
+   186,
+   188,
+   192,
+   192,
+   194,
+   198,
+   198,
+   200,
+   204,
+   206
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyZGV2b2lyfmRyYWdvbml0ZX5tb29uYmxhc3R-bW9kZXN0fmFkYW1hbnR-VHJhY2V-SW5uZXIgRm9jdXN-fn5ub25lfjB-MH4wLjAuMC4zMi4wLjB-MzIuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "nature-minus",
+  "note": "성격 -",
+  "attacker": {
+   "name": "Snorlax",
+   "nature": "Modest",
+   "ability": "Thick Fat",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Tyranitar",
+   "nature": "Adamant",
+   "ability": "Sand Stream"
+  },
+  "move": "Body Slam",
+  "expected": [
+   27,
+   27,
+   27,
+   27,
+   28,
+   28,
+   29,
+   29,
+   29,
+   30,
+   30,
+   30,
+   30,
+   31,
+   31,
+   32
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=c25vcmxheH50eXJhbml0YXJ-Ym9keS1zbGFtfm1vZGVzdH5hZGFtYW50flRoaWNrIEZhdH5TYW5kIFN0cmVhbX5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "def-sp",
+  "note": "방어 SP 투자 + 방어 성격",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Impish",
+   "ability": "Thick Fat",
+   "sp": {
+    "hp": 32,
+    "def": 32
+   }
+  },
+  "move": "Earthquake",
+  "expected": [
+   88,
+   90,
+   90,
+   91,
+   93,
+   94,
+   94,
+   96,
+   97,
+   97,
+   99,
+   100,
+   100,
+   102,
+   103,
+   105
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-aW1waXNoflJvdWdoIFNraW5-VGhpY2sgRmF0fn5-bm9uZX4wfjB-MC4zMi4wLjAuMC4wfjMyLjAuMzIuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "spd-sp",
+  "note": "특방 SP 투자",
+  "attacker": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Careful",
+   "ability": "Defiant",
+   "sp": {
+    "hp": 20,
+    "spd": 32
+   }
+  },
+  "move": "Moonblast",
+  "expected": [
+   70,
+   72,
+   72,
+   73,
+   73,
+   75,
+   75,
+   76,
+   78,
+   78,
+   79,
+   79,
+   81,
+   81,
+   82,
+   84
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyZGV2b2lyfmtpbmdhbWJpdH5tb29uYmxhc3R-bW9kZXN0fmNhcmVmdWx-VHJhY2V-RGVmaWFudH5-fm5vbmV-MH4wfjAuMC4wLjMyLjAuMH4yMC4wLjAuMC4zMi4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "sun",
+  "note": "쾌청 불꽃 1.5배",
+  "attacker": {
+   "name": "Charizard",
+   "nature": "Timid",
+   "ability": "Blaze",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Venusaur",
+   "nature": "Bold",
+   "ability": "Chlorophyll",
+   "sp": {
+    "hp": 32
+   }
+  },
+  "move": "Flamethrower",
+  "field": {
+   "weather": "Sun"
+  },
+  "expected": [
+   206,
+   210,
+   212,
+   216,
+   216,
+   218,
+   222,
+   224,
+   228,
+   230,
+   230,
+   234,
+   236,
+   240,
+   242,
+   246
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Y2hhcml6YXJkfnZlbnVzYXVyfmZsYW1ldGhyb3dlcn50aW1pZH5ib2xkfkJsYXplfkNobG9yb3BoeWxsfn5-c3VufjB-MH4wLjAuMC4zMi4wLjB-MzIuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "rain-fire",
+  "note": "비 불꽃 0.5배",
+  "attacker": {
+   "name": "Charizard",
+   "nature": "Timid",
+   "ability": "Blaze",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Venusaur",
+   "nature": "Bold",
+   "ability": "Chlorophyll"
+  },
+  "move": "Flamethrower",
+  "field": {
+   "weather": "Rain"
+  },
+  "expected": [
+   66,
+   68,
+   68,
+   68,
+   72,
+   72,
+   72,
+   72,
+   74,
+   74,
+   74,
+   74,
+   78,
+   78,
+   78,
+   80
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Y2hhcml6YXJkfnZlbnVzYXVyfmZsYW1ldGhyb3dlcn50aW1pZH5ib2xkfkJsYXplfkNobG9yb3BoeWxsfn5-cmFpbn4wfjB-MC4wLjAuMzIuMC4wfjAuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "rain-water",
+  "note": "비 물 1.5배",
+  "attacker": {
+   "name": "Blastoise",
+   "nature": "Modest",
+   "ability": "Torrent",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Hydro Pump",
+  "field": {
+   "weather": "Rain"
+  },
+  "expected": [
+   135,
+   136,
+   138,
+   139,
+   141,
+   142,
+   144,
+   145,
+   147,
+   148,
+   150,
+   151,
+   153,
+   154,
+   156,
+   159
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Ymxhc3RvaXNlfmdhcmNob21wfmh5ZHJvLXB1bXB-bW9kZXN0fmpvbGx5flRvcnJlbnR-Um91Z2ggU2tpbn5-fnJhaW5-MH4wfjAuMC4wLjMyLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "sand-spd",
+  "note": "모래 바위 특방 1.5배",
+  "attacker": {
+   "name": "Blastoise",
+   "nature": "Modest",
+   "ability": "Torrent",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Tyranitar",
+   "nature": "Adamant",
+   "ability": "Sand Stream"
+  },
+  "move": "Hydro Pump",
+  "field": {
+   "weather": "Sand"
+  },
+  "expected": [
+   104,
+   108,
+   108,
+   108,
+   110,
+   110,
+   114,
+   114,
+   116,
+   116,
+   116,
+   120,
+   120,
+   122,
+   122,
+   126
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Ymxhc3RvaXNlfnR5cmFuaXRhcn5oeWRyby1wdW1wfm1vZGVzdH5hZGFtYW50flRvcnJlbnR-U2FuZCBTdHJlYW1-fn5zYW5kfjB-MH4wLjAuMC4zMi4wLjB-MC4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "snow-def",
+  "note": "설경 얼음 방어 1.5배",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Abomasnow",
+   "nature": "Bold",
+   "ability": "Snow Warning"
+  },
+  "move": "Iron Head",
+  "field": {
+   "weather": "Snow"
+  },
+  "expected": [
+   78,
+   80,
+   80,
+   82,
+   82,
+   84,
+   84,
+   86,
+   86,
+   88,
+   88,
+   90,
+   90,
+   92,
+   92,
+   94
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-YWJvbWFzbm93fmlyb24taGVhZH5hZGFtYW50fmJvbGR-Um91Z2ggU2tpbn5Tbm93IFdhcm5pbmd-fn5zbm93fjB-MH4wLjMyLjAuMC4wLjB-MC4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "life-orb",
+  "note": "생명의구슬",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin",
+   "item": "Life Orb",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Adamant",
+   "ability": "Defiant"
+  },
+  "move": "Earthquake",
+  "expected": [
+   192,
+   194,
+   198,
+   198,
+   200,
+   204,
+   206,
+   206,
+   210,
+   212,
+   216,
+   216,
+   218,
+   222,
+   224,
+   228
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-a2luZ2FtYml0fmVhcnRocXVha2V-am9sbHl-YWRhbWFudH5Sb3VnaCBTa2lufkRlZmlhbnR-TGlmZSBPcmJ-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-life-orb"
+  ]
+ },
+ {
+  "id": "charcoal",
+  "note": "목탄",
+  "attacker": {
+   "name": "Arcanine",
+   "nature": "Adamant",
+   "ability": "Intimidate",
+   "item": "Charcoal",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Adamant",
+   "ability": "Defiant"
+  },
+  "move": "Flare Blitz",
+  "expected": [
+   206,
+   210,
+   212,
+   216,
+   216,
+   218,
+   222,
+   224,
+   228,
+   230,
+   230,
+   234,
+   236,
+   240,
+   242,
+   246
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=YXJjYW5pbmV-a2luZ2FtYml0fmZsYXJlLWJsaXR6fmFkYW1hbnR-YWRhbWFudH5JbnRpbWlkYXRlfkRlZmlhbnR-Q2hhcmNvYWx-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "expert-belt",
+  "note": "달인의띠",
+  "attacker": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace",
+   "item": "Expert Belt",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Moonblast",
+  "expected": [
+   236,
+   240,
+   242,
+   246,
+   248,
+   252,
+   254,
+   258,
+   260,
+   264,
+   266,
+   270,
+   272,
+   276,
+   278,
+   282
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyZGV2b2lyfmdhcmNob21wfm1vb25ibGFzdH5tb2Rlc3R-am9sbHl-VHJhY2V-Um91Z2ggU2tpbn5FeHBlcnQgQmVsdH5-bm9uZX4wfjB-MC4wLjAuMzIuMC4wfjAuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-expert-belt"
+  ]
+ },
+ {
+  "id": "crit",
+  "note": "급소",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Impish",
+   "ability": "Thick Fat",
+   "sp": {
+    "hp": 32,
+    "def": 32
+   }
+  },
+  "move": "Earthquake",
+  "crit": true,
+  "expected": [
+   133,
+   135,
+   136,
+   138,
+   139,
+   141,
+   142,
+   144,
+   145,
+   147,
+   148,
+   150,
+   151,
+   153,
+   154,
+   157
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-aW1waXNoflJvdWdoIFNraW5-VGhpY2sgRmF0fn5-bm9uZX4wfjF-MC4zMi4wLjAuMC4wfjMyLjAuMzIuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "burn",
+  "note": "화상 물리 반감",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "status": "brn",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Careful",
+   "ability": "Thick Fat"
+  },
+  "move": "Earthquake",
+  "expected": [
+   66,
+   67,
+   68,
+   69,
+   69,
+   70,
+   71,
+   72,
+   72,
+   73,
+   74,
+   75,
+   75,
+   76,
+   77,
+   78
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-Y2FyZWZ1bH5Sb3VnaCBTa2luflRoaWNrIEZhdH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5idXJufg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "reflect",
+  "note": "리플렉터",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Careful",
+   "ability": "Thick Fat"
+  },
+  "move": "Earthquake",
+  "field": {
+   "reflect": true
+  },
+  "expected": [
+   66,
+   66,
+   67,
+   67,
+   69,
+   69,
+   70,
+   70,
+   72,
+   72,
+   73,
+   73,
+   75,
+   75,
+   76,
+   78
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-Y2FyZWZ1bH5Sb3VnaCBTa2luflRoaWNrIEZhdH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjF-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-reflect"
+  ]
+ },
+ {
+  "id": "thick-fat",
+  "note": "두꺼운지방",
+  "attacker": {
+   "name": "Charizard",
+   "nature": "Modest",
+   "ability": "Blaze",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Careful",
+   "ability": "Thick Fat"
+  },
+  "move": "Flamethrower",
+  "expected": [
+   32,
+   32,
+   33,
+   33,
+   33,
+   33,
+   34,
+   34,
+   35,
+   35,
+   36,
+   36,
+   36,
+   36,
+   37,
+   38
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Y2hhcml6YXJkfnNub3JsYXh-ZmxhbWV0aHJvd2Vyfm1vZGVzdH5jYXJlZnVsfkJsYXplflRoaWNrIEZhdH5-fm5vbmV-MH4wfjAuMC4wLjMyLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-thick-fat-overheat"
+  ]
+ },
+ {
+  "id": "mega-y-sun",
+  "note": "메가 + 쾌청",
+  "attacker": {
+   "name": "Charizard-Mega-Y",
+   "nature": "Modest",
+   "ability": "Drought",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin",
+   "sp": {
+    "hp": 32
+   }
+  },
+  "move": "Flamethrower",
+  "field": {
+   "weather": "Sun"
+  },
+  "expected": [
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=bWVnYS1jaGFyaXphcmQteX5nYXJjaG9tcH5mbGFtZXRocm93ZXJ-bW9kZXN0fmpvbGx5fkRyb3VnaHR-Um91Z2ggU2tpbn5-fnN1bn4wfjB-MC4wLjAuMzIuMC4wfjMyLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "mega-garchomp",
+  "note": "메가 가브리아스",
+  "attacker": {
+   "name": "Garchomp-Mega",
+   "nature": "Adamant",
+   "ability": "Sand Force",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Careful",
+   "ability": "Defiant",
+   "sp": {
+    "hp": 32
+   }
+  },
+  "move": "Earthquake",
+  "expected": [
+   198,
+   200,
+   200,
+   204,
+   206,
+   210,
+   210,
+   212,
+   216,
+   218,
+   222,
+   222,
+   224,
+   228,
+   230,
+   234
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=bWVnYS1nYXJjaG9tcH5raW5nYW1iaXR-ZWFydGhxdWFrZX5hZGFtYW50fmNhcmVmdWx-U2FuZCBGb3JjZX5EZWZpYW50fn5-bm9uZX4wfjB-MC4zMi4wLjAuMC4wfjMyLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "mega-lucario-adapt",
+  "note": "메가 + 적응력",
+  "attacker": {
+   "name": "Lucario-Mega",
+   "nature": "Jolly",
+   "ability": "Adaptability",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Careful",
+   "ability": "Defiant"
+  },
+  "move": "Close Combat",
+  "expected": [
+   512,
+   520,
+   528,
+   528,
+   536,
+   544,
+   552,
+   552,
+   560,
+   568,
+   576,
+   576,
+   584,
+   592,
+   600,
+   608
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=bWVnYS1sdWNhcmlvfmtpbmdhbWJpdH5jbG9zZS1jb21iYXR-am9sbHl-Y2FyZWZ1bH5BZGFwdGFiaWxpdHl-RGVmaWFudH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "mega-raichu-x",
+  "note": "챔피언스 신규 메가 (방어측)",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Raichu-Mega-X",
+   "nature": "Jolly",
+   "ability": "Electric Surge"
+  },
+  "move": "Earthquake",
+  "expected": [
+   198,
+   200,
+   200,
+   204,
+   206,
+   210,
+   210,
+   212,
+   216,
+   218,
+   222,
+   222,
+   224,
+   228,
+   230,
+   234
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-bWVnYS1yYWljaHUteH5lYXJ0aHF1YWtlfmFkYW1hbnR-am9sbHl-Um91Z2ggU2tpbn5FbGVjdHJpYyBTdXJnZX5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "hex",
+  "note": "병상첨병 상태이상",
+  "attacker": {
+   "name": "Gengar",
+   "nature": "Timid",
+   "ability": "Cursed Body",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin",
+   "status": "par"
+  },
+  "move": "Hex",
+  "expected": [
+   127,
+   129,
+   130,
+   132,
+   133,
+   135,
+   136,
+   138,
+   139,
+   141,
+   142,
+   144,
+   145,
+   147,
+   148,
+   151
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2VuZ2FyfmdhcmNob21wfmhleH50aW1pZH5qb2xseX5DdXJzZWQgQm9keX5Sb3VnaCBTa2lufn5-bm9uZX4wfjB-MC4wLjAuMzIuMC4wfjAuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn5wYXJhbHlzaXM",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "knock-off",
+  "note": "탁쳐서떨구기 도구",
+  "attacker": {
+   "name": "Clefable",
+   "nature": "Adamant",
+   "ability": "Magic Guard",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace",
+   "item": "Leftovers"
+  },
+  "move": "Knock Off",
+  "expected": [
+   39,
+   40,
+   40,
+   41,
+   41,
+   42,
+   42,
+   43,
+   43,
+   44,
+   44,
+   45,
+   45,
+   46,
+   46,
+   47
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Y2xlZmFibGV-Z2FyZGV2b2lyfmtub2NrLW9mZn5hZGFtYW50fm1vZGVzdH5NYWdpYyBHdWFyZH5UcmFjZX5-TGVmdG92ZXJzfm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-knock-off-item"
+  ]
+ },
+ {
+  "id": "acrobatics",
+  "note": "애크러뱃 무도구",
+  "attacker": {
+   "name": "Scizor",
+   "nature": "Adamant",
+   "ability": "Light Metal",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Acrobatics",
+  "expected": [
+   73,
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   79,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=c2Npem9yfmdhcmNob21wfmFjcm9iYXRpY3N-YWRhbWFudH5qb2xseX5MaWdodCBNZXRhbH5Sb3VnaCBTa2lufn5-bm9uZX4wfjB-MC4zMi4wLjAuMC4wfjAuMC4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "facade",
+  "note": "객기 화상 (반감 무시)",
+  "attacker": {
+   "name": "Snorlax",
+   "nature": "Adamant",
+   "ability": "Thick Fat",
+   "status": "brn",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Facade",
+  "expected": [
+   30,
+   31,
+   31,
+   32,
+   32,
+   33,
+   33,
+   33,
+   33,
+   34,
+   34,
+   35,
+   35,
+   36,
+   36,
+   36
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=c25vcmxheH5nYXJjaG9tcH5mYWNhZGV-YWRhbWFudH5qb2xseX5UaGljayBGYXR-Um91Z2ggU2tpbn5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5idXJufg",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-facade-burn"
+  ]
+ },
+ {
+  "id": "rage-fist",
+  "note": "분노의주먹 피격 2회",
+  "attacker": {
+   "name": "Annihilape",
+   "nature": "Adamant",
+   "ability": "Defiant",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Rage Fist",
+  "ctx": {
+   "timesHit": 2
+  },
+  "expected": [
+   135,
+   138,
+   139,
+   141,
+   142,
+   144,
+   145,
+   147,
+   148,
+   150,
+   151,
+   153,
+   154,
+   156,
+   157,
+   160
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=YW5uaWhpbGFwZX5nYXJjaG9tcH5yYWdlLWZpc3R-YWRhbWFudH5qb2xseX5EZWZpYW50flJvdWdoIFNraW5-fn5ub25lfjB-MH4wLjMyLjAuMC4wLjB-MC4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjJ-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "last-respects",
+  "note": "성묘 기절 2",
+  "attacker": {
+   "name": "Houndstone",
+   "nature": "Adamant",
+   "ability": "Fluffy",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Jolly",
+   "ability": "Rough Skin"
+  },
+  "move": "Last Respects",
+  "ctx": {
+   "faintedAllies": 2
+  },
+  "expected": [
+   124,
+   126,
+   127,
+   129,
+   130,
+   132,
+   133,
+   135,
+   136,
+   138,
+   139,
+   141,
+   142,
+   144,
+   145,
+   147
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=aG91bmRzdG9uZX5nYXJjaG9tcH5sYXN0LXJlc3BlY3RzfmFkYW1hbnR-am9sbHl-Rmx1ZmZ5flJvdWdoIFNraW5-fn5ub25lfjB-MH4wLjMyLjAuMC4wLjB-MC4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34yfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "low-kick",
+  "note": "로킥 체중",
+  "attacker": {
+   "name": "Annihilape",
+   "nature": "Adamant",
+   "ability": "Defiant",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Careful",
+   "ability": "Defiant"
+  },
+  "move": "Low Kick",
+  "expected": [
+   300,
+   300,
+   304,
+   304,
+   312,
+   316,
+   316,
+   324,
+   324,
+   328,
+   336,
+   336,
+   340,
+   340,
+   348,
+   352
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=YW5uaWhpbGFwZX5raW5nYW1iaXR-bG93LWtpY2t-YWRhbWFudH5jYXJlZnVsfkRlZmlhbnR-RGVmaWFudH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "heavy-slam",
+  "note": "헤비봄버 체중비",
+  "attacker": {
+   "name": "Snorlax",
+   "nature": "Adamant",
+   "ability": "Thick Fat",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace"
+  },
+  "move": "Heavy Slam",
+  "expected": [
+   190,
+   192,
+   194,
+   196,
+   198,
+   200,
+   202,
+   206,
+   208,
+   210,
+   212,
+   214,
+   216,
+   218,
+   220,
+   224
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=c25vcmxheH5nYXJkZXZvaXJ-aGVhdnktc2xhbX5hZGFtYW50fm1vZGVzdH5UaGljayBGYXR-VHJhY2V-fn5ub25lfjB-MH4wLjMyLjAuMC4wLjB-MC4wLjAuMC4wLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "psyshock",
+  "note": "사이코쇼크 방어 참조",
+  "attacker": {
+   "name": "Gardevoir",
+   "nature": "Modest",
+   "ability": "Trace",
+   "sp": {
+    "spa": 32
+   }
+  },
+  "defender": {
+   "name": "Annihilape",
+   "nature": "Careful",
+   "ability": "Defiant",
+   "sp": {
+    "spd": 32
+   }
+  },
+  "move": "Psyshock",
+  "expected": [
+   176,
+   180,
+   180,
+   182,
+   186,
+   188,
+   188,
+   192,
+   194,
+   194,
+   198,
+   200,
+   200,
+   204,
+   206,
+   210
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyZGV2b2lyfmFubmloaWxhcGV-cHN5c2hvY2t-bW9kZXN0fmNhcmVmdWx-VHJhY2V-RGVmaWFudH5-fm5vbmV-MH4wfjAuMC4wLjMyLjAuMH4wLjAuMC4wLjMyLjB-bm9uZX4wfjB-MH4wfjB-fjB-fjB-M34wfjB-MH4wfjB-fg",
+   "retrieved": "2026-10-04"
+  }
+ },
+ {
+  "id": "body-press",
+  "note": "바디프레스 방어 사용",
+  "attacker": {
+   "name": "Metagross",
+   "nature": "Impish",
+   "ability": "Clear Body",
+   "sp": {
+    "def": 32
+   }
+  },
+  "defender": {
+   "name": "Kingambit",
+   "nature": "Careful",
+   "ability": "Defiant"
+  },
+  "move": "Body Press",
+  "expected": [
+   136,
+   136,
+   136,
+   140,
+   140,
+   144,
+   144,
+   144,
+   148,
+   148,
+   152,
+   152,
+   152,
+   156,
+   156,
+   160
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=bWV0YWdyb3NzfmtpbmdhbWJpdH5ib2R5LXByZXNzfmltcGlzaH5jYXJlZnVsfkNsZWFyIEJvZHl-RGVmaWFudH5-fm5vbmV-MH4wfjAuMC4zMi4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-body-press"
+  ]
+ },
+ {
+  "id": "foul-play",
+  "note": "속임수 상대 공격",
+  "attacker": {
+   "name": "Kingambit",
+   "nature": "Calm",
+   "ability": "Defiant"
+  },
+  "defender": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "move": "Foul Play",
+  "expected": [
+   66,
+   66,
+   67,
+   67,
+   69,
+   69,
+   70,
+   70,
+   72,
+   72,
+   73,
+   73,
+   75,
+   75,
+   76,
+   78
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=a2luZ2FtYml0fmdhcmNob21wfmZvdWwtcGxheX5jYWxtfmFkYW1hbnR-RGVmaWFudH5Sb3VnaCBTa2lufn5-bm9uZX4wfjB-MC4wLjAuMC4wLjB-MC4zMi4wLjAuMC4wfm5vbmV-MH4wfjB-MH4wfn4wfn4wfjN-MH4wfjB-MH4wfn4",
+   "retrieved": "2026-10-04"
+  },
+  "refutedBy": [
+   "obs-foul-play"
+  ]
+ },
+ {
+  "id": "atk-plus2",
+  "note": "랭크 공격 +2",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   },
+   "boosts": {
+    "atk": 2
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Careful",
+   "ability": "Thick Fat"
+  },
+  "move": "Earthquake",
+  "expected": [
+   265,
+   268,
+   271,
+   274,
+   279,
+   282,
+   285,
+   288,
+   291,
+   294,
+   297,
+   300,
+   303,
+   306,
+   309,
+   313
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-Y2FyZWZ1bH5Sb3VnaCBTa2luflRoaWNrIEZhdH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04",
+   "note": "stat stages set in the UI after loading the URL (not encodable)"
+  }
+ },
+ {
+  "id": "def-minus1",
+  "note": "랭크 방어 -1",
+  "attacker": {
+   "name": "Garchomp",
+   "nature": "Adamant",
+   "ability": "Rough Skin",
+   "sp": {
+    "atk": 32
+   }
+  },
+  "defender": {
+   "name": "Snorlax",
+   "nature": "Careful",
+   "ability": "Thick Fat",
+   "boosts": {
+    "def": -1
+   }
+  },
+  "move": "Earthquake",
+  "expected": [
+   202,
+   204,
+   207,
+   208,
+   211,
+   214,
+   216,
+   219,
+   220,
+   223,
+   226,
+   228,
+   231,
+   232,
+   235,
+   238
+  ],
+  "source": {
+   "name": "ChampDex calculator",
+   "url": "https://champdex.com/tools/calc?c=Z2FyY2hvbXB-c25vcmxheH5lYXJ0aHF1YWtlfmFkYW1hbnR-Y2FyZWZ1bH5Sb3VnaCBTa2luflRoaWNrIEZhdH5-fm5vbmV-MH4wfjAuMzIuMC4wLjAuMH4wLjAuMC4wLjAuMH5ub25lfjB-MH4wfjB-MH5-MH5-MH4zfjB-MH4wfjB-MH5-",
+   "retrieved": "2026-10-04",
+   "note": "stat stages set in the UI after loading the URL (not encodable)"
+  }
+ }
+]
